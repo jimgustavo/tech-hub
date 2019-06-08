@@ -70,7 +70,7 @@ class Signup extends Component {
       <Card className={classes.card}>
         <CardContent>
           <Typography type="headline" component="h2" className={classes.title}>
-            Registrate
+            Bienvenido, registrate para empezar:
           </Typography>
           <TextField id="name" label="Nombre" className={classes.textField} value={this.state.name} onChange={this.handleChange('name')} margin="normal"/><br/>
           <TextField id="email" type="email" label="Email" className={classes.textField} value={this.state.email} onChange={this.handleChange('email')} margin="normal"/><br/>
@@ -89,7 +89,7 @@ class Signup extends Component {
         <DialogTitle>New Account</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            New account successfully created.
+            Nueva cuenta exitosamente creada.
           </DialogContentText>
         </DialogContent>
         <DialogActions>

@@ -81,7 +81,7 @@ class Signin extends Component {
       <Card className={classes.card}>
         <CardContent>
           <Typography type="headline" component="h2" className={classes.title}>
-            Ingresar
+            Es bueno verte de nuevo! Ingresa tus credenciales:
           </Typography>
           <TextField id="email" type="email" label="Email" className={classes.textField} value={this.state.email} onChange={this.handleChange('email')} margin="normal"/><br/>
           <TextField id="password" type="password" label="Contraseña" className={classes.textField} value={this.state.password} onChange={this.handleChange('password')} margin="normal"/>
@@ -93,7 +93,7 @@ class Signin extends Component {
           }
         </CardContent>
         <CardActions>
-          <Button color="primary" variant="raised" onClick={this.clickSubmit} className={classes.submit}>Registrar</Button>
+          <Button color="primary" variant="raised" onClick={this.clickSubmit} className={classes.submit}>Ingresar</Button>
         </CardActions>
       </Card>
     )
